@@ -1,0 +1,4 @@
+<!--pages/today/today.wxml-->
+<view wx:for="{{content}}"  wx:for-item="item" wx:key="*this">
+ <view>{{item.abstract}}</view>
+</view>

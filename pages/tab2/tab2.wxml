@@ -1,0 +1,17 @@
+<!--pages/tab2/tab2.wxml-->
+<view class="page-section">
+  <view class="weui-cells__title">name1</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <input class="weui-input" value='{{name1}}' bindinput='set1' bindfocus='set1_1' placeholder="请输入name1" />
+    </view>
+  </view>
+</view>
+<view class="page-section">
+  <view class="weui-cells__title">name2</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <input class="weui-input" value='{{name2}}' bindinput='set2' placeholder="请输入name2" />
+    </view>
+  </view>
+</view>
